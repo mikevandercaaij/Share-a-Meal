@@ -1,0 +1,16 @@
+file 5827bada
+
+R24
+MainActivity.clas.getSimpleName();
+
+R33
+waarom public?
+naam dan zonder m (CodeConvention)
+
+R40
+naamgeving - conventions
+
+?? check code analysetool
+zijn alle attributen wel nodig als instantie-variabelen
+mRecyclerView kan binnen methode als locale variabele
+

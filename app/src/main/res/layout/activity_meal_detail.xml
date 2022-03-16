@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".presentation.MealDetailActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/secondaryColor"
+        android:padding="8dp"
+        android:text="@string/sign_up_btn"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/meal_detail_image"
+        android:layout_width="212dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/meal_detail_name"
+        style="@style/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="12dp"
+        android:text="Name"
+        android:textColor="@color/headerColor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_image" />
+
+    <TextView
+        android:id="@+id/meal_detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:text="Description"
+        android:textColor="@color/textBody"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_name" />
+
+    <TextView
+        android:id="@+id/meal_detail_price"
+        style="@style/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="14dp"
+        android:text="Price"
+        android:textColor="@color/textBody"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/meal_detail_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="12dp"
+        android:text="Date"
+        android:textColor="@color/textBody"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_allergies" />
+
+    <TextView
+        android:id="@+id/meal_detail_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="12dp"
+        android:text="Adres"
+        android:textColor="@color/textBody"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_date" />
+
+    <TextView
+        android:id="@+id/meal_availableSlots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="12dp"
+        android:text="Available Slots"
+        android:textColor="@color/textBody"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_address" />
+
+    <TextView
+        android:id="@+id/meal_participants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="12dp"
+        android:text="Current Participants"
+        android:textColor="@color/textBody"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_availableSlots" />
+
+    <TextView
+        android:id="@+id/meal_detail_allergies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:text="Allergies"
+        android:textColor="@color/textBody"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_description" />
+
+    <TextView
+        android:id="@+id/meal_detail_cookEmail"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="cookEmail"
+        android:textAlignment="textStart"
+        android:textColor="@color/textBody"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/meal_detail_cookPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toEndOf="@+id/meal_detail_image"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_cookName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/meal_detail_cookName"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="cookName"
+        android:textAlignment="textStart"
+        android:textColor="@color/textBody"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toEndOf="@+id/meal_detail_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/meal_detail_vegan"
+        android:layout_width="160dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="29dp"
+        android:text="Vegan"
+        android:textColor="@color/textBody"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/meal_detail_image"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_cookPhone" />
+
+    <TextView
+        android:id="@+id/meal_detail_vega"
+        android:layout_width="160dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="29dp"
+        android:text="Vega"
+        android:textColor="@color/textBody"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/meal_detail_image"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_vegan" />
+
+    <TextView
+        android:id="@+id/meal_takeHome"
+        android:layout_width="160dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="29dp"
+        android:text="TakeHome"
+        android:textColor="@color/textBody"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toEndOf="@+id/meal_detail_image"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_vega" />
+
+    <TextView
+        android:id="@+id/meal_detail_cookPhone"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="cookPhone"
+        android:textAlignment="textStart"
+        android:textColor="@color/textBody"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toEndOf="@+id/meal_detail_image"
+        app:layout_constraintTop_toBottomOf="@+id/meal_detail_cookEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Deel een maaltijd</string>
+    <string name="detail_meal">Maaltijd details</string>
+    <string name="sign_up_btn">Aanmelden</string>
+    <string name="allergies">Allergene info:</string>
+    <string name="datumDetails">Voorgeschoteld op:</string>
+    <string name="vegaString">Veganistisch</string>
+    <string name="veganString">Vegatarisch</string>
+    <string name="addressString">Adres:</string>
+    <string name="filterString">Filter maaltijden</string>
+    <string name="title_activity_filter">Filter</string>
+
+    <!-- Filter Titles -->
+    <string name="filter_header">Filter</string>
+
+    <!-- Filter Preferences -->
+    <string name="vega_filter">Veganistische maaltijden</string>
+    <string name="vega_desc">Veganistische maaltijden.</string>
+
+    <string name="vegan_filter">Vegatarische maaltijden</string>
+    <string name="vegan_desc">Vegatarische maaltijden.</string>
+
+    <string name="takehome_filter">Take Home maaltijden</string>
+    <string name="takehome_desc">Maaltijden die je mee naar huis moet nemen.</string>
+
+    <string name="isActive_filter">Actieve maaltijden</string>
+    <string name="isActive_desc">De maaltijden die nog moeten komen.</string>
+    <string name="takeHomeString">Meenemen</string>
+    <string name="participantString">Huidige deelnemers:</string>
+    <string name="mealSlots">Beschikbare plaatsen:</string>
+    <string name="no_allergies">geen allergene informatie gevonden</string>
+    <string name="no_participants">geen deelnemers</string>
+</resources>

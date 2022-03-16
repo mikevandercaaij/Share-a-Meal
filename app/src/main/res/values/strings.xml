@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Share a Meal</string>
+    <string name="detail_meal">Meal Details</string>
+    <string name="sign_up_btn">Sign up</string>
+    <string name="allergies">Allergenic info:</string>
+    <string name="datumDetails">Served on:</string>
+    <string name="vegaString">Vega</string>
+    <string name="veganString">Vegan</string>
+    <string name="addressString">Address:</string>
+    <string name="filterString">Filter Meals</string>
+    <string name="title_activity_filter">Filter</string>
+
+    <!-- Filter Titles -->
+    <string name="filter_header">Filter</string>
+
+    <!-- Filter Preferences -->
+    <string name="vega_filter">Vega meals</string>
+    <string name="vega_desc">Vega meals</string>
+
+    <string name="vegan_filter">Vegan meals</string>
+    <string name="vegan_desc">Vegan meals</string>
+
+    <string name="takehome_filter">Take Home Meals</string>
+    <string name="takehome_desc">Meals you\'ll have to take home.</string>
+
+    <string name="isActive_filter">Active Meals</string>
+    <string name="isActive_desc">Meals that haven\'t happened yet.</string>
+    <string name="takeHomeString">Take Home</string>
+    <string name="participantString">Current Participants:</string>
+    <string name="mealSlots">Available slots:</string>
+    <string name="no_allergies">no allergenic info found</string>
+    <string name="no_participants">no participants</string>
+</resources>

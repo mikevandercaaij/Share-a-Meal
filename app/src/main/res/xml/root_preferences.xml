@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/filter_header" app:key="filter">
+
+        <SwitchPreferenceCompat
+            app:key="vegan"
+            app:summaryOff="@string/vegan_desc"
+            app:summaryOn="@string/vegan_desc"
+            app:title="@string/vegan_filter" />
+
+        <SwitchPreferenceCompat
+            app:key="vega"
+            app:summaryOff="@string/vega_desc"
+            app:summaryOn="@string/vega_desc"
+            app:title="@string/vega_filter" />
+
+        <SwitchPreferenceCompat
+            app:key="takeHome"
+            app:summaryOff="@string/takehome_desc"
+            app:summaryOn="@string/takehome_desc"
+            app:title="@string/takehome_filter" />
+
+        <SwitchPreferenceCompat
+            app:key="active"
+            app:summaryOff="@string/isActive_desc"
+            app:summaryOn="@string/isActive_desc"
+            app:title="@string/isActive_filter" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
