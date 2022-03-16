@@ -82,7 +82,7 @@ public class MealDetailActivity extends AppCompatActivity {
         mMealCurrentParticipants = findViewById(R.id.meal_participants);
 
 
-        //set value to views, if the data is their
+        //set value to views, if the data is there
         if(!image.isEmpty()) {
             Picasso.get().load(image).into(mImageview);
         }
